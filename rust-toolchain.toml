@@ -1,0 +1,7 @@
+# https://rust-lang.github.io/rustup-components-history
+[toolchain]
+channel = "nightly-2023-11-22"
+components = ["rust-src", "rustfmt", "llvm-tools-preview"]
+targets = [
+  "thumbv6m-none-eabi",
+]
